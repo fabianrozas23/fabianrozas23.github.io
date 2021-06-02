@@ -1,0 +1,28 @@
+version-inicio{
+    text-align: right;
+    direction: rtl;
+    position: absolute;
+    bottom: 10px;
+    justify-content: right;
+    font-size: calc(1px + 2vmin);
+    color: black;
+  }
+  
+  .fondo{
+    background-image: ("https://st.depositphotos.com/1813957/4911/i/600/depositphotos_49112215-stock-photo-green-pastel-background-texture.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+  
+  }
+  
+  .header-inicio{
+      text-align: center;
+      background-color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(20px + 2vmin);
+      color: black;
+  }
