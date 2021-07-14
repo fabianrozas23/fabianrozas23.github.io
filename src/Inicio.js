@@ -6,18 +6,18 @@ export const Inicio = (props) => (
     <div className="App">
     <div ><img src={yo} alt= 'imagen del creador' height= '700'  width= '400' centered />
     </div>
-    <h1 className="new-line">Bienvenidos a mi sitio web</h1>
+    <h1 className="new-line">Bienvenidos a Extreme Fighter</h1>
     <div className="container">
-        <p>Mi nombre es Fabián Andrés Rozas Alfaro, tengo 23 años y estoy estudiando Ingenieria Civil en Informatica en la Universidad de Valparaiso.
-        Me gusta escuchar música, salir con mis amigos y ver series. Me considero una persona introvertida, pero cuando me conoces soy el más 
-        simpatico del mundo :).
+        <p>Este juego de lucha se basa en manejar a un luchador, ya sea dando golpes, patadas, saltos o usando poderes especiales para derrotar
+        a tu oponente. Cada personaje tiene su propio poder magico o destreza que lo caracteriza. Puedes obtener puntos de habilidad e intercambiar
+        poderes o mejorar habilidades. Derrota a tu enemigo antes que sea tarde!!!!  
         </p>
 
-        <p>Además de la Informatica me gusta mucho la fotagrafia. En el menú superior podrás encontrar mis redes sociales y un apartado sobre mis cursos
-            que me ayudaron a diseñar este sitio web.
+        <p>Extreme Fighter arcade tiene para ti la más importante acción de estrategia para derrotar a los demás luchadores. Te enfrentaras con 
+        diferentes enemigos a lo largo de tu camino, podrás seleccionar armaduras que complementen a tu luchador y llevarte la victoria.
         </p>
 
-             <p> Gracias por la visita y espero que vuelvas pronto !!!!
+             <p> QUE ESPERAS PARA UNIRTE A ESTA FANTÁSTICA COMUNIDAD Y SER EL MEJOR LUCHADOR DE LA HISTORIA? !!!!!!!!!!!!
             </p>
     </div>
 </div>

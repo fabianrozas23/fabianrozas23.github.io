@@ -30,10 +30,10 @@ ReactDOM.render(
         onItemClick={item => this.onItemClick(item)}
         items={[
           ["Inicio", "/"],
-          ["Validador", "/Validador"],
-          ["Formulario", "/Formulario"],
-          ["Curso", "/Curso"],
-          ["Redes sociales", "/Rss"]
+          ["MagnaWerwt", "/Magnawerwt"],
+          ["MineroWarrior", "/Minerowarrior"],
+          ["ElasticPerson", "/Elasticperson"],
+          ["CovidPest", "/Covidpest"]
         ]}
         headerIcon={"compass outline"}
       />
@@ -41,10 +41,10 @@ ReactDOM.render(
       <Content>
         <Switch>
           <Route path="/" exact component={Inicio} />
-          <Route path="/Validador" component={Validador} />
-          <Route path="/Formulario" component={Formulario} />
-          <Route path="/Curso" component={Curso} />
-          <Route component={Rss} />
+          <Route path="/MagnaWerwt" component={Validador} />
+          <Route path="/MineroWarrior" component={Formulario} />
+          <Route path="/ElasticPerson" component={Curso} />
+          <Route path="/CovidPest" component={Rss} />
         </Switch>
       </Content>
       <Footer />

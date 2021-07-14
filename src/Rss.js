@@ -10,27 +10,20 @@ import curso from './imagenes/curso.png';
 export const Rss = () => (
   <div className="App">
     <div className="new-line"><img src={redes} alt="Redes sociales" className="line-jump"/></div>
-    <h1>Visita mis redes sociales y más!</h1>
+    <h1></h1>
     <div className="container">
       <div className="centering">
-        <div new-line>
-            <a href="https://www.instagram.com/fabianrozas_/"> <img src={insta} alt="instagram Fabián" height= '161'  width= '765' /></a>
-        </div>
-        <div new-line>
-            <a href="https://www.instagram.com/first.cam/"> <img src={instafotos} alt="Instagram fotos" height= '161'  width= '765' /></a> 
-        </div>
-        <div new-line>
-            <a href="https://www.facebook.com/profile.php?id=100009189151224"> <img src={face} alt="Facebook Fabián" height= '200'  width= '765' /></a> 
-        </div>
-        <div new-line>
-            <a href="https://github.com/fabianrozas23"> <img src={github} alt="Github Fabián" height= '200'  width= '765' /></a> 
-        </div>
-        <div new-line>
-            <a href="https://dev.azure.com/fabianrozas"> <img src={azure} alt="Azure Fabián" height= '161'  width= '765' /></a> 
-        </div>
-        <div new-line>
-            <a href="https://fabianrozas.me/"> <img src={curso} alt="Página del curso" height= '180'  width= '765' /></a> 
-        </div>
+        <h2>COVIDPEST</h2>
+            <h3>Habilidades, estadisticas e Información del personaje</h3>
+            <p>
+                <ul>
+                <li type="disc">Habilidad especial: Ataque Rapido de cuarentena</li>
+                <li type="disc">golpes: Golpe de tos</li>
+                <li type="disc">patada: Patada infectada</li>
+                <li type="disc">salto: Salto del contagio</li>
+                <li type="disc">Estadisticas: 18-fuerza, 8-destreza,  19-vitalidad, 0-magia, 96%-ataque, 60%-defensa</li>
+                </ul>
+            </p>
       </div>
     </div>
   </div>
